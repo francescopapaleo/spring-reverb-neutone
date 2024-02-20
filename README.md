@@ -1,5 +1,21 @@
 # This is a Template Repository for a Python Package
 
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+- [Citation](#citation)
+
+
+## Description
+
+This is a template repository for a Python package. It is meant to be used as a starting point for creating a new Python package. It includes a basic folder structure, a `setup.py` file, a `setup.cfg` file, a `requirements.txt` file, a `README.md` file, a `LICENSE` file, and a `.gitignore` file. The package is distributed under the GNU Affero GPL License.
+
+
 ## Installation
 
 To install the package type:
@@ -7,6 +23,12 @@ To install the package type:
 ```bash
 pip install template_for_python_package
 ```
+
+
+## Usage
+
+To use this template repository to create a new Python package, click on the "Use this template" button at the top of the page. Then, follow the instructions to create a new repository based on this template. Once you have created the new repository, you can clone it to your local machine and start adding your own code to it.
+
 
 ## Folder Structure
 
@@ -30,6 +52,7 @@ template-for-python-package/
 ├── LICENSE
 └── .gitignore
 ```
+
 
 ## Acknowledgements
 
