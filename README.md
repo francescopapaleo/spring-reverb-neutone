@@ -1,4 +1,11 @@
 # This is a Template Repository for a Python Package
+![GitHub License](https://img.shields.io/github/license/francescopapaleo/template-scientific-python-package)
+[![codecov](https://codecov.io/gh/francescopapaleo/signal-generator/graph/badge.svg?token=7BT4XETDXS)](https://codecov.io/gh/francescopapaleo/template-scientific-python-package)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/francescopapaleo/template-scientific-python-package/main.yaml)
+
+
+Following the best practices given by: [Scientific Python Library Development Guide](https://learn.scientific-python.org/development/)
+
 
 ## Table of Contents
 
@@ -13,8 +20,7 @@
 
 ## Description
 
-This is a template repository for a Python package. It is meant to be used as a starting point for creating a new Python package. It includes a basic folder structure, a `setup.py` file, a `setup.cfg` file, a `requirements.txt` file, a `README.md` file, a `LICENSE` file, and a `.gitignore` file. The package is distributed under the GNU Affero GPL License.
-
+This is a template repository for a Python package. It is meant to be used as a starting point for creating a new Python package.
 
 ## Installation
 

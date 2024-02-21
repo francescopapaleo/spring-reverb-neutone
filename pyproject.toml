@@ -1,19 +1,28 @@
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
-name = "template_for_python_package"
+name = "example"
 version = "0.1.0"
 description = "A template for Python packages"
 authors = [{name = "Francesco Papaleo"}]
 license = {file = "LICENSE"}
 readme = "README.md"
-requires-python = ">=3.6"
+
+requires-python = ">=3.10"
+
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest",
+    "flake8",
+    "black",
+    "mypy",
+    "hatchling",
 ]
 
 [project.urls]
@@ -33,9 +42,7 @@ exclude = '''
 )/
 '''
 
-[tool.flake8]
-max-line-length = 88
-extend-ignore = E203, W503
+[tool.pytest]
+junit_family = "xunit2"
+testpaths = ["tests"]
 
-[tool.pytest.ini_options]
-# (optional) Add pytest configuration here
